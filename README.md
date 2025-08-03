@@ -5,3 +5,8 @@ It looks for the download path of the file upon completion, and creates a .json 
   torrent hash,
   total size,
   files list, their size and extension
+
+Use:
+  Save the script somewhere on your PC and set up qBittorrent to run the saved script along with follwing parameters
+  "\some\directory\InfoExport.bat" "%N" "%D" "%I" "%F"
+Note: Do not change the sequence of the parameters, their positions are locked with the script
